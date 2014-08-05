@@ -1,0 +1,24 @@
+{
+	"name": "ondrs/webloader-filters",
+	"description": "Filters for Nette WebLoader",
+	"keywords": ["webloader", "css", "javascript", "assets", "nette", "filters"],
+	"homepage": "http://addons.nette.org/cs/webloader",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ondřej Plšek",
+			"email": "plsek.o@gmail.com"
+		}
+	],
+  "autoload": {
+    "classmap": ["src/"]
+  },
+	"require": {
+    "janmarek/webLoader": ">= 2.2.0",
+    "natxet/CssMin": "~3.0.2",
+    "linkorb/jsmin-php": "~1.0.0"
+	},
+	"suggest": {
+		"leafo/lessphp": "Lessphp is a composer for LESS written in PHP."
+	}
+}
